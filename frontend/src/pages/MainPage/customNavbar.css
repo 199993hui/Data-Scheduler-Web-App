@@ -1,0 +1,21 @@
+/* customNavbar.css */
+
+.custom-navbar {
+  z-index: 2000;
+  background-color: #1f2528 ; 
+  position: fixed;
+  width : 100%;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .navbar-nav .nav-link {
+  color: #d0d6db; /* Replace with your desired text color */
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+  color: #CCCCCC; /* Replace with your desired text hover color */
+}
+
+.MuiDrawer-paperAnchorLeft {
+  top: 55px !important;
+}

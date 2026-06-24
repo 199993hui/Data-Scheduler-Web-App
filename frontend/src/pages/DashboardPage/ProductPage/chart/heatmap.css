@@ -1,0 +1,27 @@
+.heatmap div div div {
+  width: 23px !important;
+  font-size: 9px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.heatmap > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.heatmap > div > div:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heatmap > div > div:first-child > div {
+  transform: rotate(-45deg);
+  transform-origin: left;
+  text-align: right;
+  white-space: nowrap;
+}
+
+#chart div div {
+  margin: 0 auto;
+}
